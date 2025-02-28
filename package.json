@@ -1,0 +1,23 @@
+{
+	"name": "tanggang_rust",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "module",
+	"scripts": {
+		"docs:dev": "vitepress dev docs",
+		"docs:build": "vitepress build docs",
+		"docs:preview": "vitepress preview docs",
+		"deploy": "bash deploy.sh"
+	},
+	"devDependencies": {
+		"vitepress": "1.6.3"
+	},
+	"dependencies": {
+		"@algolia/client-search": "^5.20.3",
+		"genji-theme-vitepress": "^0.2.6"
+	}
+}
