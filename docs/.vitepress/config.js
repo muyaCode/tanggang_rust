@@ -20,7 +20,7 @@ export default defineConfig({
   lang: "zh", // 中文，英文设置en-US
   title: "唐刚-Rust语言从入门到实战", // 浏览器标签标题
   description: "Rust语言从入门到实战", // 浏览器标签标题
-  base: '/TangGangRust/', // url默认前缀
+  base: '/tanggang_rust/', // url默认前缀，要跟仓库名称一致
   appearance: true, // 暗黑模式
   ignoreDeadLinks: true, // 不会因死链接而使构建失败
   lastUpdated: true, // 使用 git 提交获取时间戳，使默认主题能够显示页面的上次更新时间
@@ -40,17 +40,17 @@ export default defineConfig({
   // outDir: "../dist", // 打包输出的目录
   // titleTemplate: '牧涯前端学习笔记', // 标题后缀
   cleanUrls: true, // url是否带.html后缀
-  // 浏览器标签图标设置
-  head: [
-    [
-      'link',
-      {
-        rel: 'icon',
-        href: 'https://avatars.githubusercontent.com/u/48587992?v=4'
-      }
-    ]
-    // ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
-  ],
+  // // 浏览器标签图标设置
+  // head: [
+  //   [
+  //     'link',
+  //     {
+  //       rel: 'icon',
+  //       href: 'https://avatars.githubusercontent.com/u/48587992?v=4'
+  //     }
+  //   ]
+  //   // ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
+  // ],
 
   // ***** 主题设置 *****
   // 文档：https://vitepress.vuejs.org/config/theme-configs

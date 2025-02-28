@@ -1,8 +1,12 @@
 ---
 # 文档：https://vitepress.dev/zh/guide/frontmatter
 
-# 默认为首页
+# # 选项 home 将生成模板化的“主页”，在此布局中，您可以设置额外的选项，例如hero和features。
 # layout: home
+# doc 是默认布局，它将整个 Markdown 内容样式化为“文档”外观。
+layout: doc
+# # 选项 page 被视为“空白页”， Markdown 仍然会被解析，并且所有 Markdown Extensions 与 doc 布局同样生效，但它不会获得任何默认样式。
+# layout: page
 
 title: 前端学习笔记
 titleTemplate: 记录一些前端学习的知识
